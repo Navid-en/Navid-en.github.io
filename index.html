@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ahmad Navid Ahmadi - PORTFOLIO</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     * {
       margin: 0;
@@ -154,6 +155,7 @@
       transition: all 0.3s ease;
       border: 1px solid rgba(255, 255, 255, 0.2);
       font-size: 0.95em;
+      gap: 10px;
     }
 
     .contact-btn:hover {
@@ -174,6 +176,14 @@
       background: linear-gradient(135deg, #e4405f, #833ab4);
     }
 
+    .contact-btn.bot {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+    }
+
+    .contact-btn i {
+      font-size: 1.2em;
+    }
+
     footer {
       margin-top: 40px;
       font-size: 0.9em;
@@ -186,7 +196,7 @@
 
   <!-- Background Video -->
   <video autoplay muted loop>
-    <source src="bg.mp4" type="video/mp4" />
+    <source src="https://assets.mixkit.co/videos/preview/mixkit-aerial-shot-of-a-modern-city-at-dusk-40891-large.mp4" type="video/mp4" />
     Your browser does not support HTML5 video.
   </video>
   <div class="overlay"></div>
@@ -194,7 +204,7 @@
   <!-- Content -->
   <div class="container">
     <div class="card">
-      <img src="file.png" alt="Ahmad Navid Ahmadi" class="profile-pic" />
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Ahmad Navid Ahmadi" class="profile-pic" />
       <h1>Ahmad Navid Ahmadi</h1>
       <p class="tagline">High School Student & Enthusiastic Learner</p>
 
@@ -202,12 +212,11 @@
         <h2>About Me</h2>
         <ul>
           <li><strong>Country:</strong> Afghanistan</li>
-          <li><strong>Name:</strong> Ahmad Navid Ahmadi</li>
+          <li><strong>👤 Name:</strong> Ahmad Navid Ahmadi</li>
           <li><strong>Username:</strong> @AhmadNavidAhmadi</li>
           <li><strong>School:</strong> High School</li>
-          <li><strong>Religious:</strong> Muslim </li>
-          <li><strong>Language:</strong> English, Dari, Pashto</li>
-          <li><strong>Hobbies:</strong> Studying 📖</li>
+          <li><strong>Language:</strong> English </li>
+          <li><strong>Hobbies:</strong> Learning 📚</li>
         </ul>
       </div>
 
@@ -223,16 +232,16 @@
 
       <div class="contact-links">
         <a href="https://t.me/AhmadNavidAhmadi" class="contact-btn telegram" target="_blank">
-          Telegram
+          <i class="fab fa-telegram"></i> Telegram
         </a>
         <a href="https://wa.me/13093149885" class="contact-btn whatsapp" target="_blank">
-          WhatsApp
+          <i class="fab fa-whatsapp"></i> WhatsApp
         </a>
         <a href="https://instagram.com/AhmadNavidAhmadi1st" class="contact-btn instagram" target="_blank">
-          Instagram
+          <i class="fab fa-instagram"></i> Instagram
         </a>
-        <a href="https://t.me/ByteBooksbot" class="contact-btn telegram" target="_blank">
-          Support Bot
+        <a href="https://t.me/ByteBooksbot" class="contact-btn bot" target="_blank">
+          <i class="fas fa-robot"></i> Support Bot
         </a>
       </div>
     </div>
